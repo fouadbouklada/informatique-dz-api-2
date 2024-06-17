@@ -8,7 +8,7 @@ const login = async (req, res) => {
     if(user){
         res.send(user);
     }else{
-        res.send('wrong credentials')
+        res.send('authorized')
     }
 
 }
